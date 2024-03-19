@@ -1,0 +1,13 @@
+name: ML
+channels:
+  - apple
+  - conda-forge
+  - bioconda
+dependencies:
+  - pip=22.0.4=pyhd8ed1ab_0
+  - python=3.9.0=h4b4120c_5_cpython
+  - scikit-learn=1.0.2=py39hef7049f_0
+  - tensorflow-deps=2.8.0=0
+  - pip:
+    - tensorflow-macos==2.8.0
+    - tensorflow-metal==0.4.0
