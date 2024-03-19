@@ -1,4 +1,4 @@
-# AppliedML2024 - Code Repository (Instructors Folder [private])
+# AppliedML2024 - Code Repository
 
 GitHub repository for code used in the course Applied Machine Learning 2024 at University of Copenhagen.
 
