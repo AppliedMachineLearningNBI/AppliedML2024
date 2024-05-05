@@ -1,0 +1,33 @@
+# The safe practice is to create different environments 
+# for different groups of packages used for specific jobs.
+# Install 'conda' to manage environments: 
+#   conda install -c anaconda virtualenv
+# Create a new conda environment:
+#   conda create --name appmlenv
+# Activate the environment:
+#   conda activate appmlenv
+# Install recommended packages: 
+#   conda install --file requirements.txt
+#
+# * To deactivate 'appmlenv':
+#   conda deactivate
+# * To remove 'appmlenv':
+#   conda env remove --name appmlenv
+# List of packages:
+#
+numpy==1.26.4
+scipy==1.13.0
+matplotlib==3.8.4
+pandas==1.4.1
+h5py==3.10.0
+scikit-learn==1.4.2
+xgboost==1.5.2
+lightgbm==4.3.0
+seaborn==0.13.2
+torch
+torchvision
+torchaudio
+torch-geometric
+lightning
+tensorboard
+ogb
